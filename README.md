@@ -9,7 +9,8 @@ This is End-To-End Data Engineering Project using Airflow and Python. In this pr
 
 ## Steps
 1. Login to AWS, to create an EC2 instance. Then diploy Airflow onto that. To do that once you create EC2 instance SSH into that and run .sh commands. It will install airflow and once it is installed then start the airflow server using following command
-``` airflow standalone
+``` 
+airflow standalone
 ```
 2. Once the server is ready, you would be able to see the username and password. Now using the DNS in EC2 login to the website with the username and password provided.
 3. To save the data onto a data frame we need to have S3 bucket so create one in AWS account. Also create an IAM role for EC2 instance to be able to access S3.
